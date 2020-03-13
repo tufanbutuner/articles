@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Article 4</title>
+
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+    </head>
+    <body>
+  
+  <!-- As a heading -->
+  <nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 p-2 h1">NEWS</span>
+        <ul class="nav mr-3 justify-content-end">
+            <li class="nav-item">
+            <a class="nav-link active" href="index.html">HOME</a>
+            </li>
+        </ul>
+      </nav>
+       
+
+    <!-- Jumbotron -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="Top" class="jumbotron jumbotron-fluid">
+                        <h1 id ="title" class="display-1"></h1>
+                </div>
+            </div>
+        </div>
+
+        <p id="json" hidden>https://raw.githubusercontent.com/bbc/news-coding-test-dataset/master/data/article-4.json</p>
+        <!-- Article -->
+        <div class="container">
+            <div id="content" class="col-sm-12"></div>
+        </div>
+
+        <!-- Next page button -->
+        <div class="container">
+            <a href="article5.html">
+                <button id="nextPage" type="button">Next article</button>
+            </a>
+
+            <!-- Last page button-->
+            <a href="article3.html">
+                <button id="lastPage" type="button">Last article</button>
+            </a>
+        </div>
+
+    </body>
+    <script src="main.js"></script>
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: 'Karla', sans-serif;
+  }
+
+
+
+/*          Navigation bar          */
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+mb-4 img-fluid {
+    width: 150px;
+}
+
+/*          Jumbotron (the hero image and text on the page)         */
+
+.jumbotron {
+    margin: 0px 0px 10px 0px;
+    padding: 40px;
+    background-size: cover;
+    background-position: top;
+}
+
+.display-1 {
+    font-size: 5vw;
+    text-align: center;
+}
+
+#title 
+{
+    font-weight: bold;
+}
+
+#text 
+{
+    font-weight: bold;
+}
+
+#content 
+{
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+#nextPage 
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px; 
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+
+#lastPage 
+{
+    position: fixed;
+    bottom: 30px;
+    left: 30px; 
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+
+#submit
+{
+    border-radius: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
